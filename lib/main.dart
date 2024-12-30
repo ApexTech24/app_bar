@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Home Page"),
           centerTitle: true,
+          actions: [
+            IconButton(onPressed: (){}, icon: Icon(Icons.add))
+          ],
         ),
       )
     );
