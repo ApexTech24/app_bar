@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Home Page"),
           centerTitle: true,
+          leading: Icon(Icons.message),
           actions: [
             IconButton(onPressed: (){}, icon: Icon(Icons.add))
           ],
